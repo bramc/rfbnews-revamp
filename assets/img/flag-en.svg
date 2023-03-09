@@ -1,0 +1,16 @@
+<svg width="31" height="18" viewBox="0 0 31 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2.01044 18H28.8413C29.8935 17.8121 30.7202 16.9666 30.8518 15.9144V2.0856C30.7202 1.0334 29.8935 0.187891 28.8601 0H2.01044C0.958246 0.187891 0.131524 1.0334 0 2.0856V15.8956C0.131524 16.9666 0.958246 17.8121 2.01044 18Z" fill="#FEFEFE"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M20.6493 6.50104L30.4384 1.01461C30.2318 0.71398 29.9499 0.469721 29.6305 0.28183L18.5261 6.50104H20.6493Z" fill="#C20F2D"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M20.1796 11.856L30.0814 17.3988C30.3445 17.1545 30.5512 16.8727 30.6827 16.5532L22.3027 11.8747H20.1796V11.856Z" fill="#C20F2D"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0.169128 1.46556L9.13155 6.50105H11.2735L0.770381 0.601257C0.526122 0.845516 0.319442 1.12735 0.169128 1.46556Z" fill="#C20F2D"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.785 11.856L0.826721 17.4363C1.14614 17.6994 1.54071 17.9061 1.97286 17.9812L12.9269 11.856H10.785Z" fill="#C20F2D"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M28.7474 0H17.9436V6.0501L28.7474 0Z" fill="#1A2673"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1712 0H2.42383L13.1712 6.0501V0Z" fill="#1A2673"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M30.8518 6.50104V2.36743L23.524 6.50104H30.8518Z" fill="#1A2673"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M30.8518 15.9144V11.856H23.524L30.8518 15.9332V15.9144Z" fill="#1A2673"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3.02502 18H13.1712V12.3069L3.02502 18Z" fill="#1A2673"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17.9436 18H28.1273L17.9436 12.3069V18Z" fill="#1A2673"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 11.856V15.9144C0.0187891 15.9896 0.0187891 16.0459 0.0375783 16.1023L7.59081 11.856H0Z" fill="#1A2673"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 6.50103H7.59081L0 2.2171V6.50103Z" fill="#1A2673"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M14.1294 0V7.57202H0V10.785H14.1294V18H16.9854V10.785H30.8518V7.57202H16.9854V0H14.1294Z" fill="#C20F2D"/>
+</svg>

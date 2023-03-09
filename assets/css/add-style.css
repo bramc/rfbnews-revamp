@@ -1,0 +1,76 @@
+.main-header-wrapper {
+    height: 105px;
+}
+.header-logo a img {
+    max-width: 200px;
+    padding-top: 10px;
+}
+.navbar-area ul li a i {
+    display: none;
+}
+.submenu {
+    position: absolute;
+    left: 0;
+    display: none !important;
+}
+.submenu2{
+    display: none !important;
+    visibility: hidden !important;
+    position: absolute !important;
+    left: 100% !important;
+    top: 0 !important;
+    z-index: -99 !important;
+}
+.submenu > li:hover > .submenu2{
+    display: block;
+    visibility: visible !important;
+    z-index: 99 !important;
+    animation: none !important;
+}
+.world-time {
+    margin: 0px 15px 0px 0px;
+    cursor: pointer;
+}
+.world-time i {
+    font-size: 22px;
+    color: #000000;
+}
+.flag-icon {
+    margin: 0px 15px 0px 0px;
+}
+.flag-icon img{
+    width: 31px;
+    height: 18px;
+}
+.b-title {
+    border-left: solid 3px red;
+    padding-left: 8px;
+}
+.btl-simple-card span.btn {
+    background-color: #D1260C;
+    color: #ffffff;
+}
+.like-list-content {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.category-list-product {
+    background-color: #ffffff;
+}
+.category-list-product .cp-list-content {
+    flex: 1;
+    padding: 10px;
+}
+.cp-list-img button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #D1260C;
+    border: 0px;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 13px;
+}
+.cp-list-img button:hover {
+    background-color: #166E9F;
+    color: #ffffff;
+}
