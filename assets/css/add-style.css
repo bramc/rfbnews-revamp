@@ -74,6 +74,9 @@
     background-color: #166E9F;
     color: #ffffff;
 }
+.ftr-dtls {
+    background-color: #003756 !important;
+}
 
 @media screen and (max-width: 575px) {
 .like-list-content {
