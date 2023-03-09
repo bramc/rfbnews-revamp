@@ -74,3 +74,9 @@
     background-color: #166E9F;
     color: #ffffff;
 }
+
+@media screen and (max-width: 575px) {
+.like-list-content {
+    grid-template-columns: 1fr !important;
+}
+}
