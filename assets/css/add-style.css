@@ -91,6 +91,15 @@
 .banner-img img {
     width: 100%;
 }
+.disclaimer {
+    margin: 20px 0px;
+    padding: 0px;
+    text-align: justify;
+    font-weight: 200;
+}
+.disclaimer h4 {
+    margin-bottom: 10px;
+}
 .main-footer {
     padding: 60px 0px;
     background-color: #166E9F;
