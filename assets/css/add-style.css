@@ -107,6 +107,10 @@
 .social-icon li {
     margin: 20px 20px 0px 0px;
 }
+.social-icon.social-bg-red li {
+    border: 1px #000000;
+    background-color: #000000;
+}
 
 @media screen and (max-width: 575px) {
 .like-list-content {
