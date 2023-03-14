@@ -91,6 +91,22 @@
 .banner-img img {
     width: 100%;
 }
+.main-footer {
+    padding: 60px 0px;
+    background-color: #166E9F;
+    color: #ffffff;
+}
+.main-footer h4{
+    color: #ffffff;
+}
+
+.main-footer .ftr-link ul li a {
+    padding-left: 4px;
+    color: #ffffff;
+}
+.social-icon li {
+    margin: 20px 20px 0px 0px;
+}
 
 @media screen and (max-width: 575px) {
 .like-list-content {
