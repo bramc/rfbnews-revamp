@@ -205,6 +205,11 @@ label-success, .badge-success {
     height: 13px;
     margin: 0px 5px 0px 20px;
 }
+.live-chart-select {
+    display: flex;
+    justify-content: space-between;
+    grid-column-gap: 20px;
+}
 
 @media screen and (max-width: 575px) {
 .like-list-content {
