@@ -50,6 +50,35 @@
     background-color: #D1260C;
     color: #ffffff;
 }
+.market-analysis-wrapper {
+    padding: 0px;
+}
+.news-card-market {
+    display: grid;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    grid-gap: 35px;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+}
+.btn-market {
+    background-color: rgba(94,184,32,0.8) !important;
+    color: #ffffff;
+}
+.btn-market:hover {
+    background-color: #D1260C !important;
+}
+.card-list-heading h6 a {
+    color: #252525;
+}
+.list-heading a {
+    font-size: 14px;
+    color: #166E9F;
+}
+.list-heading a:hover {
+   color: #252525;
+}
 .like-list-content {
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -73,6 +102,9 @@
 .cp-list-img button:hover {
     background-color: #166E9F;
     color: #ffffff;
+}
+.cp-content-title ul li {
+    color: #bcbcbc;
 }
 .ftr-dtls {
     background-color: #003756 !important;
@@ -119,6 +151,50 @@
 .social-icon.social-bg-red li {
     border: 1px #000000;
     background-color: #000000;
+}
+.table>:not(caption)>*>* {
+    padding: 1rem 1rem;
+}
+thead {
+   background: #F9F9F9;
+}
+th, td {
+    border-bottom: 1px solid #bcbcbc;
+    text-align: center;
+  }
+tbody tr:hover {
+    background-color: #F2F2F2;
+}
+label-success, .badge-success {
+    background-color: #468847;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 20px;
+    color: #ffffff;
+    background-color: #F2F2F2;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+.badge-green {
+    background: #5EB820;
+}
+.badge-yellow {
+    background: #D7C204;
+}
+.badge-red {
+    background: #D1260C;
+}
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
 }
 
 @media screen and (max-width: 575px) {
