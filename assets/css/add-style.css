@@ -196,6 +196,15 @@ label-success, .badge-success {
 .text-right {
     text-align: right;
 }
+.live-chart-info {
+    border: 1px solid #5EB820;
+    min-height: 100px;
+    padding: 20px
+}
+.checkbox-inline input {
+    height: 13px;
+    margin: 0px 5px 0px 20px;
+}
 
 @media screen and (max-width: 575px) {
 .like-list-content {
