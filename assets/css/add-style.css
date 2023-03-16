@@ -170,15 +170,15 @@ label-success, .badge-success {
 }
 
 .table-live thead {
-    background: #5EB820;
+    background: #5EB820 !important;
     color: #ffffff;
  }
  .table-live th, td {
-    border-bottom: 1px solid #BFFD95;
+    border-bottom: 1px solid #BFFD95 !important;
     text-align: center;
   }
 .table-live tbody tr:hover {
-    background-color: #F7FFF1;
+    background-color: #F7FFF1 !important;
 }
 
 .badge {
