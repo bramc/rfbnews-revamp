@@ -169,6 +169,18 @@ label-success, .badge-success {
     background-color: #468847;
 }
 
+.table-live thead {
+    background: #5EB820;
+    color: #ffffff;
+ }
+ .table-live th, td {
+    border-bottom: 1px solid #BFFD95;
+    text-align: center;
+  }
+.table-live tbody tr:hover {
+    background-color: #F7FFF1;
+}
+
 .badge {
     display: inline-block;
     padding: 5px 20px;
@@ -196,6 +208,16 @@ label-success, .badge-success {
 .text-right {
     text-align: right;
 }
+.text-red {
+   color:#D1260C;
+}
+.text-yellow{
+    color:#D7C204;
+}
+.text-green {
+    color:#5EB820;
+}
+
 .live-chart-info {
     border: 1px solid #5EB820;
     min-height: 100px;
