@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RFB News</title>
+    <link rel="icon" href="assets/img/favicon.png" type="image/gif" sizes="16x16">
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/plugin.min.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/add-style.css">
+</head>
+<body>
+
+<!-- header area html here -->
+<header class="header-area">
+    
+    <!-- main-header -->
+    <div class="main-header bg-primary"  id="myHeader">
+    <div class="container container-md">
+        <div class="main-header-wrapper">
+            <div class="header-logo">
+                <a href="index.html">
+                    <img src="assets/img/logoRFB.png" alt="logo">
+                </a>
+            </div>
+            <div class="navbar-wrapper">
+
+    <nav class="navbar-area">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown"><a href="#">Market News</a>
+                <ul class="submenu">
+                    <li><a href="#">Index</a>
+                        <ul class="submenu2">
+                            <li><a href="index-market.html">Nikkei</a></li>
+                            <li><a href="index-market.html">Hangseng</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Commodity</a>
+                        <ul class="submenu2">
+                            <li><a href="">Gold</a></li>
+                            <li><a href="">Oil</a></li>
+                        </ul>                    
+                    </li>
+                    <li><a href="#">Currencies</a>
+                        <ul class="submenu2">
+                            <li><a href="">EUR/USD</a></li>
+                            <li><a href="">USD/JPY</a></li>
+                            <li><a href="">USD/CHF</a></li>
+                            <li><a href="">AUD/USD</a></li>
+                            <li><a href="">GBP/USD</a></li>
+                            <li><a href="">US Dollar</a></li>
+                        </ul>                    
+                    </li>
+                </ul>   
+            </li>
+            <li class="dropdown"><a href="#">Economic News</a>
+                <ul class="submenu">
+                    <li><a href="#">Economy</a></li>
+                    <li><a href="#">Fiscal & Moneter</a></li>
+                </ul>   
+            </li>
+            <li class="dropdown"><a href="#">Analysis</a>
+                <ul class="submenu">
+                    <li><a href="index-market.html">Market Analysis</a></li>
+                    <li><a href="live-chart.html">Live Chart</a></li>
+                </ul>   
+            </li>
+            <li class="dropdown"><a href="#">Tools</a>
+                <ul class="submenu">
+                    <li><a href="#">Economic Calendar</a></li>
+                    <li><a href="#">Historical Data</a></li>
+                    <li><a href="#">Pivot</a></li>
+                    <li><a href="#">Fibonacci</a></li>
+                </ul>   
+            </li>
+        </ul>
+    </nav>
+</div>
+            <div class="options-area over-menu">
+                <!-- can you create background image in search popup.you go to search-popup-box div and add search-popup-bg class -->
+<div class="Search-popup">
+    <div class="Search-icon">
+        <i class="icofont-search-1"></i>
+    </div>
+    <div class="search-popup-box"><!--search-popup-bg -->
+        <div class="search-box">
+            <span><i class="icofont-search-1"></i></span>
+            <input type="text" placeholder="Type your keyword">
+            <button  >Search</button>
+        </div>
+        <div class="close-popup">
+            <i class="icofont-close-line"></i>
+        </div>
+    </div>
+</div>
+<div class="world-time">
+    <i class="icofont-clock-time"></i>
+</div>
+<div class="flag-icon">
+    <a href="#"><img src="assets/img/flag-ina.svg" alt="Bahasa"></a>
+</div>
+<div class="flag-icon">
+    <a href="#"><img src="assets/img/flag-en.svg" alt="English"></a>
+</div>
+
+                <!-- toggle bar responsive design -->
+                <div class="toggle-bar">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>     
+ 
+</header> 
+
+<section class="index-news-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div>
+                    <div class="bnr-lft">
+                        <div class="bnr-lft-title" data-aos="fade-up">
+                            <div class="news-heading">
+                                <h5>Headline</h5>
+                            </div>
+                            <div class="news-slider owl-carousel"  data-carousel-loop="true" data-carousel-items="1" data-carousel-nav="false" data-carousel-dots="false" data-carousel-autoplay="true" data-carousel-mousedrag="true" data-carousel-animateout="null">
+                                <div class="elepse"> 
+                                     <a href="news-detail.html">Yen, Franc Trim Gain as SNB Lends to Credit Suisse</a>
+                                </div>
+                                <div class="elepse"> 
+                                     <a href="news-detail.html">Gold on pace for best week since November as U.S. dollar weakens on banking woes</a>
+                                </div>
+                                <div class="elepse"> 
+                                     <a href="news-detail.html">ECB Raises Rates By 50 Basis Points, As Inflation Trumps Financial Stability Fear</a>
+                                </div>
+                                <div class="elepse"> 
+                                     <a href="news-detail.html">RBA cuts Official Cash Rate by 25 bps to 0.50%, AUD/USD jumps</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-heading">
+                        <h3 data-aos="fade-up"><span class="b-title">Market Analysis</span></h3>
+                        <div data-aos="fade-up" class="live-chart-select">
+                            <form>
+                                <select name="chart-period" id="period">
+                                    <option value="1">1 Week</option>
+                                    <option value="2">2 Week</option>
+                                    <option value="3">3 Week</option>
+                                    <option value="4">4 Week</option>
+                                  </select>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="index-news-wrapper">
+                    <div class="index-news-content">
+                        <!-- single list card -->
+                        <div class="category-list-product index-news-dtl" data-aos="fade-up" data-aos-delay="50">
+                            <div class="cp-list-img">
+                                <a href="news-detail.html"><img src="assets/img/news/ecbrises-293x237.jpg" alt="image"></a>
+                                <button class="btn">Fiscal & Monetory</button>
+                            </div>
+                            <div class="cp-list-content">
+                                <div class="cp-content-title">
+                                    <ul>
+                                        <li>7:35 AM</li>
+                                        <li>16 Nov, 2020</li>
+                                    </ul>
+                                </div>
+                                <h3><a href="news-detail.html">ECB Raises Rates By 50 Basis Points, As Inflation Trumps Financial Stability Fear</a></h3>
+                                <p>The European Central Bank raised its key interest rates by 50 basis points on Thursday, pressing on with its fight to tame inflation despite signs of stress in the financial system resulting from earlier rate hikes</p>
+                            </div>
+                        </div>
+                        <!-- single list card -->
+                        <div class="category-list-product index-news-dtl" data-aos="fade-up" data-aos-delay="50">
+                            <div class="cp-list-img">
+                                <a href="news-detail.html"><img src="assets/img/news/consumen-sentiment-293x237.jpg" alt="image"></a>
+                                <button class="btn">Economy</button>
+                            </div>
+                            <div class="cp-list-content">
+                                <div class="cp-content-title">
+                                    <ul>
+                                        <li>7:35 AM</li>
+                                        <li>16 Nov, 2020</li>
+                                    </ul>
+                                </div>
+                                <h3><a href="news-detail.html">US: UoM Consumer Confidence Index Drops to 63.4 in March vs. 67 Expected</a></h3>
+                                <p>Consumer sentiment in the US weakened in early March with the University of Michigan's (UoM) Consumer Confidence Index declining to 63.4 from 67 in February.</p>
+                            </div>
+                        </div>
+                        <!-- single list card -->
+                        <div class="category-list-product index-news-dtl" data-aos="fade-up" data-aos-delay="50">
+                            <div class="cp-list-img">
+                                <a href="news-detail.html"><img src="assets/img/news/philedelpia-fed-293x237.jpg" alt="image"></a>
+                                <button class="btn">Economy</button>
+                            </div>
+                            <div class="cp-list-content">
+                                <div class="cp-content-title">
+                                    <ul>
+                                        <li>7:35 AM</li>
+                                        <li>16 Nov, 2020</li>
+                                    </ul>
+                                </div>
+                                <h3><a href="news-detail.html">Philadelphia Fed's Manufacturing Gauge Remains in Deep Contraction Territory in March</a></h3>
+                                <p>The Philadelphia Fed said Thursday its gauge of regional business activity inched up to negative 23.2 in March from negative 24.3 in the prior month. Any reading below zero indicates improving conditions. This is the seventh straight negative reading and the ninth in the last ten months.</p>
+                            </div>
+                        </div>
+                        <!-- single list card -->
+                        <div class="category-list-product index-news-dtl" data-aos="fade-up" data-aos-delay="50">
+                            <div class="cp-list-img">
+                                <a href="news-detail.html"><img src="assets/img/news/powell-says-293x237.jpg" alt="image"></a>
+                                <button class="btn">Fiscal & Monetory</button>
+                            </div>
+                            <div class="cp-list-content">
+                                <div class="cp-content-title">
+                                    <ul>
+                                        <li>7:35 AM</li>
+                                        <li>16 Nov, 2020</li>
+                                    </ul>
+                                </div>
+                                <h3><a href="news-detail.html">Powell Says 'No Decision' Made on Speeding Up Pace of Rate Hikes</a></h3>
+                                <p>Federal Reserve Chair Jerome Powell stressed that policymakers had not yet made up their minds on the size of their interest-rate increase later this month and said it would hinge on incoming data on jobs and inflation.</p>
+                            </div>
+                        </div>
+                        <!-- single list card -->
+                        <div class="category-list-product index-news-dtl" data-aos="fade-up" data-aos-delay="50">
+                            <div class="cp-list-img">
+                                <a href="news-detail.html"><img src="assets/img/news/oil-prises-293x237.jpg" alt="image"></a>
+                                <button class="btn">Oil</button>
+                            </div>
+                            <div class="cp-list-content">
+                                <div class="cp-content-title">
+                                    <ul>
+                                        <li>7:35 AM</li>
+                                        <li>16 Nov, 2020</li>
+                                    </ul>
+                                </div>
+                                <h3><a href="news-detail.html">Oil Prices See Biggest Weekly Drop of 2023 on Recession Fears</a></h3>
+                                <p>Oil futures gave up early gains Friday to end lower, booking the biggest weekly drop of 2023 as worries over the U.S. and European banking sector stoke recession fears. </p>
+                            </div>
+                        </div>
+                        <!-- single list card -->
+                        <div class="category-list-product index-news-dtl" data-aos="fade-up" data-aos-delay="50">
+                            <div class="cp-list-img">
+                                <a href="news-detail.html"><img src="assets/img/news/usproducer-293x237.jpg" alt="image"></a>
+                                <button class="btn">Economy</button>
+                            </div>
+                            <div class="cp-list-content">
+                                <div class="cp-content-title">
+                                    <ul>
+                                        <li>7:35 AM</li>
+                                        <li>16 Nov, 2020</li>
+                                    </ul>
+                                </div>
+                                <h3><a href="news-detail.html">US Producer Prices Unexpectedly Fall, Signaling Easing ...</a></h3>
+                                <p>US producer prices unexpectedly declined in February, pointing to an...</p>
+                            </div>
+                        </div>
+                        <!-- single list card -->
+                        <div class="category-list-product index-news-dtl" data-aos="fade-up" data-aos-delay="50">
+                            <div class="cp-list-img">
+                                <a href="news-detail.html"><img src="assets/img/news/USPronew-293x237.jpg" alt="image"></a>
+                                <button class="btn">Economy</button>
+                            </div>
+                            <div class="cp-list-content">
+                                <div class="cp-content-title">
+                                    <ul>
+                                        <li>7:35 AM</li>
+                                        <li>16 Nov, 2020</li>
+                                    </ul>
+                                </div>
+                                <h3><a href="news-detail.html">US Pro New York Empire State Factory ...</a></h3>
+                                <p>The New York Fed's Empire State business conditions index, a gauge ...</p>
+                            </div>
+                        </div>
+                        <!-- single list card -->
+                        <div class="category-list-product index-news-dtl" data-aos="fade-up" data-aos-delay="50">
+                            <div class="cp-list-img">
+                                <a href="news-detail.html"><img src="assets/img/news/oilrecovers-293x237.jpg" alt="image"></a>
+                                <button class="btn">Oil</button>
+                            </div>
+                            <div class="cp-list-content">
+                                <div class="cp-content-title">
+                                    <ul>
+                                        <li>7:35 AM</li>
+                                        <li>16 Nov, 2020</li>
+                                    </ul>
+                                </div>
+                                <h3><a href="news-detail.html">Oil Recovers From 15-Month Low After Banking ...</a></h3>
+                                <p>Oil climbed from the lowest close in 15 months after a three-day ...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                        <nav aria-label="News Navigation" data-aos="fade-up">
+                            <ul class="pagination">
+                              <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1">Previous</a>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item active">
+                                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                              </li>
+                            </ul>
+                          </nav>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="pro-area aos-init aos-animate" data-aos="fade-up">
+    <div class="container">
+        <div class="row">
+            <div class="disclaimer">
+                <h4>Disclaimer</h4>
+                <p>Seluruh materi atau konten yang tersaji di dalam website ini hanya bersifat informatif saja, dan tidak dimaksudkan sebagai pegangan serta keputusan dalam investasi atau jenis transaksi lainnya. Kami tidak bertanggung jawab atas segala akibat yang timbul dari penyajian konten tersebut. Semua pihak yang mengunjungi website ini harus membaca Terms of Service (Syarat dan Ketentuan Layanan) terlebih dahulu dan dihimbau untuk melakukan analisis secara independen serta memperoleh saran dari para ahli dibidangnya.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer-area">
+    <div class="main-footer" style="background-image:url(assets/img/bg-footer.png); background-size: cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 ft-order-1 mb-lg-50">
+                    <div class="ftr-drpt">
+                        <div class="footer-logo">
+                            <a href="#">
+                                <img src="assets/img/RFBNews-white.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 ft-order-2 mb-sm-30">
+                    <div class="ftr-link">
+                        <h4 class="title-line-shape">About</h4>  
+                        <div class="ftr-category-menu">
+                            <ul class="round-shape">
+                                <li><a href="#">Our Company</a></li>
+                                <li><a href="#">Trading Rules</a></li>
+                                <li><a href="#">Copyright</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Risk Disclosure</a></li>
+                                <li><a href="#">Term & Servicet</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4 ft-order-3 mb-sm-30">
+                    <div class="ftr-link">
+                        <h4 class="title-line-shape">Main Menu</h4>
+                        <ul>
+                            <li><a href="#">Market News</a></li>
+                            <li><a href="#">Economic News</a></li>
+                            <li><a href="#">Analysis</a></li>
+                            <li><a href="#">Tools</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 ft-order-4">
+                    <div class="footer-social">
+                        <h4>Follow Us</h4>
+                        <ul class="social-icon social-bg-red">
+                            <li><a href="#"><i class="icofont-facebook"></i></a></li>
+                            <li><a href="#"><i class="icofont-youtube-play"></i></a></li>
+                            <li><a href="#"><i class="icofont-twitter"></i></a></li>
+                            <li><a href="#"><i class="icofont-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ftr-bg">
+            <img src="assets/img/svg/ftr-bg.svg" alt="image">
+        </div>
+    </div>
+    <div class="ftr-dtls theme-bg">
+        <div class="container">
+            <div class="ftr-dtls-wrapper">
+                <p>Copyright © 2023, Rifan Financindo Berjangka, All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer script call here -->
+<script src="assets/js/app.min.js"></script>
+<script src="assets/js/scripts.js"></script>
+</body>
+</html>

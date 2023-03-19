@@ -298,7 +298,9 @@ label-success, .badge-success {
     background-color: #D1260C;
     border-color: #D1260C;
 }
-
+.general-section {
+    margin-top: 35px;
+}
 
 @media screen and (max-width: 575px) {
 .like-list-content {
