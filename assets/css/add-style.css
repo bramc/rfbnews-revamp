@@ -288,6 +288,7 @@ label-success, .badge-success {
 }
 .page-link {
     color: #4E5764;
+    font-size: 18px;
 }
 .page-link:hover {
     color: #4E5764;
