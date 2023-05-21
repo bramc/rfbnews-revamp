@@ -5,28 +5,7 @@
     max-width: 200px;
     padding-top: 10px;
 }
-.navbar-area ul li a i {
-    display: none;
-}
-.submenu {
-    position: absolute;
-    left: 0;
-    display: none !important;
-}
-.submenu2{
-    display: none !important;
-    visibility: hidden !important;
-    position: absolute !important;
-    left: 100% !important;
-    top: 0 !important;
-    z-index: -99 !important;
-}
-.submenu > li:hover > .submenu2{
-    display: block;
-    visibility: visible !important;
-    z-index: 99 !important;
-    animation: none !important;
-}
+
 .world-time {
     margin: 0px 15px 0px 0px;
     cursor: pointer;
@@ -62,12 +41,19 @@
     grid-template-columns: 1fr;
     margin: 0 auto;
 }
+.single-post-content .figer-img {
+    height: ;
+    object-fit: cover;
+}
 .btn-market {
     background-color: rgba(94,184,32,0.8) !important;
     color: #ffffff;
 }
 .btn-market:hover {
     background-color: #D1260C !important;
+}
+.card-list-img:after {
+    display: none;
 }
 .card-list-heading h6 a {
     color: #252525;
@@ -143,6 +129,9 @@
 .main-footer .ftr-link ul li a {
     padding-left: 4px;
     color: #ffffff;
+}
+.main-footer .ftr-link ul li a:hover {
+    color: #D7C204;
 }
 .social-icon li {
     margin: 20px 20px 0px 0px;
@@ -315,6 +304,7 @@ tbody tr:hover {
     display: flex;
     justify-content:flex-start;
     grid-column-gap: 20px;
+    align-items: center;
 }
 .economic-calendar-button {
     margin-bottom: 40px;
@@ -345,7 +335,45 @@ tbody tr:hover {
     border-color: #D1260C;
     color: #ffffff;
 }
+.title-line-shape:before {
+    display: none;
+}
+.title-line-shape:after {
+    display: none;
+}
 
+.daterangepicker {
+    background-color: #fff;
+    border-radius: 0 !important;
+    align-content: center !important;
+    padding: 0 !important;
+  }
+
+.date-con {
+    font-size: 14px;
+}
+
+.date-title {
+    margin-right: 10px;
+    margin-top: 14px;
+}
+
+form-control {
+    padding: 5px 5px;
+    font-size: 14px;
+}
+
+.box-cal-detail {
+    background: #F7FFF1;
+    border: 1px solid #5EB820;
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.hiddenRow {
+    padding: 0 !important;
+}
 
 @media screen and (max-width: 575px) {
 .like-list-content {
@@ -353,5 +381,17 @@ tbody tr:hover {
 }
 .related-news-content {
     grid-template-columns: 1fr;
+}
+.index-news-content {
+    grid-template-columns: 1fr;
+}
+.disclaimer {
+    padding: 0px 15px;
+}
+.ftr-drpt .footer-logo {
+    text-align: left;
+}
+.ftr-dtls-wrapper {
+    text-align: center;
 }
 }

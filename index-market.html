@@ -144,16 +144,21 @@
                             </div>
                         </div>
                     </div>
-                    <div class="market-title-left">
+                    <div class="market-title-left mb-3">
                         <h3 data-aos="fade-up"><span class="b-title">Market Analysis</span></h3>
-                        <div data-aos="fade-up">
-                            <form>
-                                <select name="commodity" id="commodity">
-                                    <option value="1">Gold</option>
-                                    <option value="2">Nikkei</option>
-                                    <option value="3">Hang Seng</option>
-                                  </select>
-                            </form>
+                        <div>
+                            <select>
+                                <option value="1">Gold</option>
+                                <option value="2">Nikkei</option>
+                                <option value="3">Hang Seng</option>
+                              </select>
+                        </div>
+                        <div class="d-inline-flex date-con">
+                            <div class="d-flex me-3"><span class="date-title">Start</span><input name="startDate-date-picker" class="form-control" type="date"><span id="startDateSelected"></div>
+                            <div class="d-flex me-3"><span class="date-title">End</span><input name="Date-date-picker" class="form-control" type="date"><span id="endDateSelected"></div>
+                        </div>
+                        <div>
+                            <button class="btn btn-theme">Filter</button>
                         </div>
                     </div>
                 </div>
