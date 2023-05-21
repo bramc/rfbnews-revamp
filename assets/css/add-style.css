@@ -140,11 +140,18 @@
     border: 1px #000000;
     background-color: #000000;
 }
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+.table-tools {
+    background-color: #5EB820;
+}
 .table>:not(caption)>*>* {
     padding: 15px;
 }
 thead {
    background: #F9F9F9;
+   color: #ffffff;
 }
 th, td {
     border-bottom: 1px solid #bcbcbc;
