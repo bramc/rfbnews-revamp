@@ -145,13 +145,21 @@
 }
 .table-tools {
     background-color: #5EB820;
+    color: #ffffff;
+}
+.table-calculator {
+    background-color: #5EB820;
+    color: #ffffff;
+}
+.table-calculator:hover {
+    background-color: #166E9F;
+    color: #ffffff;
 }
 .table>:not(caption)>*>* {
     padding: 15px;
 }
 thead {
    background: #F9F9F9;
-   color: #ffffff;
 }
 th, td {
     border-bottom: 1px solid #bcbcbc;
@@ -171,7 +179,17 @@ tbody tr:hover {
 .table-live tbody tr:hover {
     background-color: #F7FFF1 !important;
 }
-
+.nav-tabs .nav-link {
+    color: #212529;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #166E9F;
+    background-color: #fff;
+    border-color: #166E9F #166E9F #fff;
+}
+.nav-tabs {
+    border-bottom: 1px solid #166E9F;
+}
 .badge {
     display: inline-block;
     padding: 5px 20px;
@@ -380,6 +398,9 @@ form-control {
 
 .hiddenRow {
     padding: 0 !important;
+}
+hr.blue {
+    border-top: 1px solid #166E9F;
 }
 
 @media screen and (max-width: 575px) {

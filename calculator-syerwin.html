@@ -1,0 +1,351 @@
+
+                    <div class="recentColCal">
+                        <div class="tabbable">
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#c_pivot" data-toggle="tab">PIVOT</a></li>
+                                <li><a href="#c_fibonacci" data-toggle="tab">FIBONACCI</a></li>
+                            </ul>
+                            <div class="tab-content">
+                            
+                                <div class="tab-pane active" id="c_pivot">
+                                    <!-- pivot chart-->
+                                        <div class="span12" style="align-text:center;">
+                                            <div class="row-fluid">
+                                                <div class="input-group">
+                                                    <div class="span2 offset2" style="margin-bottom:20px;">
+                                                        <input name="pivot-open" type="text" class="form-control" style="width:90%;" placeholder="Open"/>
+                                                    </div>
+                                                    <div class="span2">
+                                                        <input name="pivot-high" type="text" class="form-control" style="width:90%;" placeholder="High"/>
+                                                    </div>
+                                                    <div class="span2">
+                                                        <input name="pivot-low" type="text" class="form-control" style="width:90%;" placeholder="Low"/>
+                                                    </div>
+                                                    <div class="span2">
+                                                        <input name="pivot-close" type="text" class="form-control" style="width:90%;" placeholder="Close"/>
+                                                    </div>
+                                                    <div class="span1">
+                                                        <button name="calculate-pivot" type="button" class="btn btn-theme">CALCULATE!</button>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="span12" style="margin-left:0px;">
+                                            <div class="row-fluid">
+                                                <table class="table table-hover">
+                                                    <thead>
+                                                        <tr class="text-center">
+                                                        <th width="50">&nbsp;</th>
+                                                        <th width="30%" style="background:#ACAC9D; color:#ffffff; text-align:center;">CLASSIC</th>
+                                                        <th width="30%" style="background:#B28500; color:#ffffff; text-align:center;">WOODIE</th>
+                                                        <th width="30%" style="background:#8C0000; color:#ffffff; text-align:center;">CAMARILLA</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                        <td><strong>R4</strong></td>
+                                                        <td style="background:#EBECDA; text-align:right;"><div name="pivot-cr4">0</div></td>
+                                                        <td style="background:#FFEFBF; text-align:right;"><div name="pivot-wr4">0</div></td>
+                                                        <td style="background:#FFCFC1; text-align:right; padding-right:20px;"><div name="pivot-cmr4">0</div></td>
+                                                        </tr>
+                                                        <tr>
+                                                        <td><strong>R3</strong></td>
+                                                        <td style="background:#EBECDA; text-align:right;"><div name="pivot-cr3">0</div></td>
+                                                        <td style="background:#FFEFBF; text-align:right;"><div name="pivot-wr3">0</div></td>
+                                                        <td style="background:#FFCFC1; text-align:right; padding-right:20px;"><div name="pivot-cmr3">0</div></td>
+                                                        </tr>
+                                                        <tr>
+                                                        <td><strong>R2</strong></td>
+                                                        <td style="background:#EBECDA; text-align:right;"><div name="pivot-cr2">0</div></td>
+                                                        <td style="background:#FFEFBF; text-align:right;"><div name="pivot-wr2">0</div></td>
+                                                        <td style="background:#FFCFC1; text-align:right; padding-right:20px;"><div name="pivot-cmr2">0</div></td>
+                                                        </tr>
+                                                        <tr>
+                                                        <td><strong>R1</strong></td>
+                                                        <td style="background:#EBECDA; text-align:right;"><div name="pivot-cr1">0</div></td>
+                                                        <td style="background:#FFEFBF; text-align:right;"><div name="pivot-wr1">0</div></td>
+                                                        <td style="background:#FFCFC1; text-align:right; padding-right:20px;"><div name="pivot-cmr1">0</div></td>
+                                                        </tr>
+                                                        <tr class="warning">
+                                                        <td><H4>Pivot</H4></td>
+                                                        <td style="text-align:right; font-size:20px; padding-top:18px;"><div name="pivot-cp">0</div></td>
+                                                        <td style="text-align:right; font-size:20px; padding-top:18px;"><div name="pivot-wp">0</div></td>
+                                                        <td style="text-align:right; font-size:20px; padding-right:20px; padding-top:18px;"><div name="pivot-cmp">0</div></td>
+                                                        </tr>
+                                                        <tr>
+                                                        <td><strong>S1</strong></td>
+                                                        <td style="background:#EBECDA; text-align:right;"><div name="pivot-cs1">0</div></td>
+                                                        <td style="background:#FFEFBF; text-align:right;"><div name="pivot-ws1">0</div></td>
+                                                        <td style="background:#FFCFC1; text-align:right; padding-right:20px;"><div name="pivot-cms1">0</div></td>
+                                                        </tr>
+                                                        <tr>
+                                                        <td><strong>S2</strong></td>
+                                                        <td style="background:#EBECDA; text-align:right"><div name="pivot-cs2">0</div></td>
+                                                        <td style="background:#FFEFBF; text-align:right;"><div name="pivot-ws2">0</div></td>
+                                                        <td style="background:#FFCFC1; text-align:right; padding-right:20px;"><div name="pivot-cms2">0</div></td>
+                                                        </tr>
+                                                        <tr>
+                                                        <td><strong>S3</strong></td>
+                                                        <td style="background:#EBECDA; text-align:right"><div name="pivot-cs3">0</div></td>
+                                                        <td style="background:#FFEFBF; text-align:right;"><div name="pivot-ws3">0</div></td>
+                                                        <td style="background:#FFCFC1; text-align:right; padding-right:20px;"><div name="pivot-cms3">0</div></td>
+                                                        </tr>
+                                                        <tr>
+                                                        <td><strong>S4</strong></td>
+                                                        <td style="background:#EBECDA; text-align:right"><div name="pivot-cs4">0</div></td>
+                                                        <td style="background:#FFEFBF; text-align:right;"><div name="pivot-ws4">0</div></td>
+                                                        <td style="background:#FFCFC1; text-align:right; padding-right:20px;"><div name="pivot-cms4">0</div></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>	
+
+                                        <!-- pivot chart-->
+                                </div>
+                                    
+                                <div class="tab-pane" id="c_fibonacci">
+                                    <!-- fibonaci chart-->
+                                    <div class="row-fluid">
+                                        <!--form Uptrend--> 
+                                        <div class="span12">
+                                        
+                                            <div class="span5"><img src="images/rfbnews/uptrend_fibonacci.png"></div>
+                                        
+                                            <div class="span3">
+                                                            
+                                                <form action="#" method="post"  id="uptrend-form" class="">
+                                                
+                                                    <!-- Text input-->
+                                                    <div class="control-group">
+                                                    <label class="control-label">Price (A)</label>
+                                                    <div class="controls">
+                                                        <input id="ua" name="low" type="text" placeholder="low value" style="width:100px;">
+                                                        
+                                                    </div>
+                                                    </div>
+                                                    
+                                                    <!-- Text input-->
+                                                    <div class="control-group">
+                                                    <label class="control-label">Price (B)</label>
+                                                    <div class="controls">
+                                                        <input id="ub" name="high" type="text" placeholder="high value" style="width:100px;">
+                                                        
+                                                    </div>
+                                                    </div>
+                                                    
+                                                    <!-- Button -->
+                                                    <div class="control-group">
+                                                    <label class="control-label"></label>
+                                                    <div class="controls">
+                                                        <div id="up-calculate" name="calculate" class="btn btn-warning">Calculate</div>
+                                                    </div>
+                                                    </div>
+                                                
+                                                </form>         
+                                                        
+                                            </div>
+                                        
+                                            <div class="span2">
+                                            
+                                                <table class="table table-bordered table-condensed">
+                                                    <thead>
+                                                        <tr>
+                                                            <th colspan="2">Retracement</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>23.60%</td>
+                                                            <td id="uv7860">0</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>38.20%</td>
+                                                            <td id="uv6180">0</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>50.0%</td>
+                                                            <td id="uv500">0</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>61.80%</td>
+                                                            <td id="uv3820">0</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>78.60%</td>
+                                                            <td id="uv2360">0</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            
+                                            
+                                            </div>
+                                        
+                                            <div class="span2">
+                                                <table class="table table-bordered table-condensed">
+                                                    <thead>
+                                                        <tr>
+                                                            <th colspan="2">Projection</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>138.20%</td>
+                                                            <td id="up13820">0</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>150.00%</td>
+                                                            <td id="up15000">0</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>161.80%</td>
+                                                            <td id="up16180">0</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>200.00%</td>
+                                                            <td id="up20000">0</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>238.20%</td>
+                                                            <td id="up23820">0</td>
+                                                        </tr>
+                                                        
+                                                        <tr>
+                                                            <td>261.80%</td>
+                                                            <td id="up26180">0</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        
+                                        </div>
+                                        
+                                        
+                                        <hr class="orange"> 
+                                        
+                                        
+                                        
+                                        <!--form Downtrend--> 
+                                        <div class="span12" style="border-top: 2px solid #EFBC00; padding-top:40px; margin-top:20px; margin-left:-1px;">
+                                            
+                                            <div class="span5"><img src="images/rfbnews/downtrend_fibonacci.png"></div>
+                                        
+                                            <div class="span3">            
+                                            
+                                            
+                                                <form action="#" method="post"  id="downtrend-form" class="">
+                                                
+                                                
+                                                    <!-- Text input-->
+                                                    <div class="control-group">
+                                                        <label class="control-label">Price (A)</label>
+                                                        <div class="controls">
+                                                            <input id="da" name="low" type="number" placeholder="high value" style="width:100px;">
+                                                            
+                                                        </div>
+                                                    </div>
+                                                
+                                                    <!-- Text input-->
+                                                    <div class="control-group">
+                                                        <label class="control-label">Price (B)</label>
+                                                        <div class="controls">
+                                                            <input id="db" name="high" type="number" placeholder="low value" style="width:100px;">
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <!-- Button -->
+                                                    <div class="control-group">
+                                                        <label class="control-label"></label>
+                                                        <div class="controls">
+                                                            <div id="down-calculate" name="calculate" class="btn btn-warning">Calculate</div>
+                                                        </div>
+                                                    </div>
+                                                
+                                                </form>         
+                                                        
+                                            </div>
+                                        
+                                            <div class="span2">
+                                            
+                                                <table class="table table-bordered table-condensed">
+                                                    <thead>
+                                                        <tr>
+                                                            <th colspan="2">Retracement</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>78.60%</td>
+                                                        <td id="dv2360">0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>61.80%</td>
+                                                        <td id="dv3820">0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>50.0%</td>
+                                                        <td id="dv500">0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>38.20%</td>
+                                                        <td id="dv6180">0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>23.60%</td>
+                                                        <td id="dv7860">0</td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            
+                                            
+                                            </div>
+                                            
+                                            <div class="span2">
+                                            
+                                                <table class="table table-bordered table-condensed">
+                                                    <thead>
+                                                        <tr>
+                                                            <th colspan="2">Projection</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>138.20%</td>
+                                                            <td id="dp13820">0</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>150.00%</td>
+                                                            <td id="dp15000">0</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>161.80%</td>
+                                                            <td id="dp16180">0</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>200.00%</td>
+                                                            <td id="dp20000">0</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>238.20%</td>
+                                                            <td id="dp23820">0</td>
+                                                        </tr>
+                                                        
+                                                        <tr>
+                                                            <td>261.80%</td>
+                                                            <td id="dp26180">0</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        
+                                        </div>
+                                    </div>
+                                    <!-- /fibonaci chart-->
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
