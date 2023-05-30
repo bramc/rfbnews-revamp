@@ -407,6 +407,30 @@ hr.blue {
     border-top: 1px solid #166E9F;
 }
 
+.world-time-container {
+    left: -100px !important;
+    margin-top: 30px !important;
+}
+
+.world-time-header {
+    background-color: #166E9F; 
+    color: #ffffff; 
+    text-align: center; 
+    font-size: larger;
+    cursor: none !important;
+}
+
+.world-time-value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: none !important;
+}
+
+.modal-backdrop {
+    height: 0px !important;
+}
+
 @media screen and (max-width: 575px) {
 .like-list-content {
     grid-template-columns: 1fr !important;

@@ -361,7 +361,7 @@
   opacity: 1;
 }
 .search-popup-box.search-popup-bg {
-  background-image: url(../img/search-bg.jpg);
+  background-image: url(../img/bg-search.jpg) !important;
   -webkit-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
