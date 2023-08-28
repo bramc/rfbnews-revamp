@@ -446,7 +446,7 @@ hr.blue {
 }
 
 .h-form {
-    margin: 15px;
+    margin: 0 15px 0 0;
 }
 
 @media screen and (max-width: 575px) {
