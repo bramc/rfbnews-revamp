@@ -445,6 +445,10 @@ hr.blue {
     margin-bottom: 1px !important;
 }
 
+.h-form {
+    margin: 15px;
+}
+
 @media screen and (max-width: 575px) {
 .like-list-content {
     grid-template-columns: 1fr !important;
@@ -463,5 +467,12 @@ hr.blue {
 }
 .ftr-dtls-wrapper {
     text-align: center;
+}
+.view-mob {
+    display: grid !important;
+    grid-gap: 10px;
+}
+.h-form {
+    margin: 0px !important;
 }
 }
