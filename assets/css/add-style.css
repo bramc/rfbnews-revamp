@@ -32,6 +32,12 @@
 .market-analysis-wrapper {
     padding: 0px;
 }
+.market-analysis-home{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
 .news-card-market {
     display: grid;
     -webkit-box-pack: justify;
@@ -429,6 +435,14 @@ hr.blue {
 
 .modal-backdrop {
     height: 0px !important;
+}
+
+.category-product .cp-content {
+    padding: 20px !important;
+}
+
+.category-product .cp-content p {
+    margin-bottom: 1px !important;
 }
 
 @media screen and (max-width: 575px) {
